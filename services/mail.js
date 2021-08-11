@@ -23,10 +23,10 @@ const sendMail = (email, subject, message) => {
 
     transporter.sendMail(mailOptions, (err, data) => {
       if (err) {
-        console.log('I am hit inside mail.js error message!');
+        // console.log('I am hit inside mail.js error message!');
         reject(err);
       } else {
-        console.log('I am hit inside mail.js with data message!');
+        // console.log('I am hit inside mail.js with data message!');
         resolve(data);
       }
     });
