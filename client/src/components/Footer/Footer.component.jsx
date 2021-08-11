@@ -29,7 +29,7 @@ const Footer = () => {
               <li>
                 <FontAwesomeIcon icon={faMapMarkerAlt} style={{ marginRight: '10px' }} />
                 <a onClick="return gtag_report_conversion('https://www.google.com/maps/dir//people+helping+people+in+los+angeles+inc/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c2c79e0409138f:0x50a63f61975f8a77!2m2!1d-118.2745293!2d34.057139899999996');" href="https://www.google.com/maps/dir//people+helping+people+in+los+angeles+inc/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c2c79e0409138f:0x50a63f61975f8a77!2m2!1d-118.2745293!2d34.057139899999996" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
-                  1930 Wilshire Blvd Ste 506 Los Angeles, CA 90057
+                  1930 Wilshire Blvd Ste 509 Los Angeles, CA 90057
                 </a>
               </li>
               <li>

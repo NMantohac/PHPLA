@@ -27,6 +27,7 @@
         "consistent-return": ["off"],
         "react/jsx-filename-extension": ["off"],
         "react/jsx-one-expression-per-line": ["off"],
+        "react/jsx-props-no-spreading": ["off"],
         "react/no-unescaped-entities": ["off"],
         "react/prefer-stateless-function": ["off"],
         "react/state-in-constructor": ["off"],

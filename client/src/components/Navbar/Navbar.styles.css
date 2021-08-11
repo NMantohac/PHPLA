@@ -3,6 +3,7 @@
   position: fixed;
   overflow-anchor: none;
   transition: 0.5s;
+  z-index: 1;
 }
 
 .navbar-logo {

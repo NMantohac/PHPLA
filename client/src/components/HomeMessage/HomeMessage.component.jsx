@@ -5,10 +5,11 @@ import Fade from 'react-reveal/Fade';
 const HomeMessage = () => {
   return (
     <div>
-      <Container style={{ textAlign: 'center', backgroundColor: '#f2f2f2' }}>
+      <Container style={{ textAlign: 'center', backgroundColor: '#f2f2f2', marginTop: '-10px' }}>
         <Row>
           <Col style={{ fontSize: '16px', padding: '30px' }}>
             <Fade big>
+              <p style={{ textAlign: 'center', fontFamily: 'Amatic SC', fontSize: '38px' }}>Our Core Beliefs</p>
               <p className="home-message-1">
                 By the name itself, our organization's purpose is to serve your needs.
               </p>

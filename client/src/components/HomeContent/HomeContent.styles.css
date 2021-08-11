@@ -40,137 +40,51 @@
   -webkit-transform: translateY(15px);
 }
 
-.home-text-1,
-.home-text-2,
-.home-text-3,
-.home-text-4,
-.home-text-5,
-.home-text-6,
-.home-text-7,
-.home-text-8,
-.home-text-9,
-.home-text-10,
-.home-text-11,
-.home-text-12 {
+.home-text {
+  font-family: 'Amatic SC', serif;
   font-size: 82px;
 }
 
-.home-text-1,
-.home-text-3,
-.home-text-5,
-.home-text-7,
-.home-text-9,
-.home-text-11 {
+.home-text-margin {
   margin-top: 50px;
 }
 
 @media screen and (max-width: 1140px) {
-  .home-text-1,
-  .home-text-2,
-  .home-text-3,
-  .home-text-4,
-  .home-text-5,
-  .home-text-6,
-  .home-text-7,
-  .home-text-8,
-  .home-text-9,
-  .home-text-10,
-  .home-text-11,
-  .home-text-12 {
+  .home-text {
     font-size: 64px;
   }
 }
 
 @media screen and (max-width: 991px) {
-  .home-text-1,
-  .home-text-2,
-  .home-text-3,
-  .home-text-4,
-  .home-text-5,
-  .home-text-6,
-  .home-text-7,
-  .home-text-8,
-  .home-text-9,
-  .home-text-10,
-  .home-text-11,
-  .home-text-12 {
+  .home-text {
     font-size: 48px;
   }
 
-  .home-text-1,
-  .home-text-3,
-  .home-text-5,
-  .home-text-7,
-  .home-text-9,
-  .home-text-11 {
+  .home-text-margin {
     margin-top: 25px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .home-text-1,
-  .home-text-2,
-  .home-text-3,
-  .home-text-4,
-  .home-text-5,
-  .home-text-6,
-  .home-text-7,
-  .home-text-8,
-  .home-text-9,
-  .home-text-10,
-  .home-text-11,
-  .home-text-12 {
+  .home-text {
     font-size: 72px;
   }
 }
 
 @media screen and (max-width: 490px) {
-  .home-text-1,
-  .home-text-2,
-  .home-text-3,
-  .home-text-4,
-  .home-text-5,
-  .home-text-6,
-  .home-text-7,
-  .home-text-8,
-  .home-text-9,
-  .home-text-10,
-  .home-text-11,
-  .home-text-12 {
+  .home-text {
     font-size: 56px;
   }
 }
 
 @media screen and (max-width: 393px) {
-  .home-text-1,
-  .home-text-2,
-  .home-text-3,
-  .home-text-4,
-  .home-text-5,
-  .home-text-6,
-  .home-text-7,
-  .home-text-8,
-  .home-text-9,
-  .home-text-10,
-  .home-text-11,
-  .home-text-12 {
+  .home-text {
     font-size: 48px;
   }
 }
 
 @media screen and (max-width: 343px) {
-  .home-text-1,
-  .home-text-2,
-  .home-text-3,
-  .home-text-4,
-  .home-text-5,
-  .home-text-6,
-  .home-text-7,
-  .home-text-8,
-  .home-text-9,
-  .home-text-10,
-  .home-text-11,
-  .home-text-12 {
+  .home-text {
     font-size: 40px;
   }
 }

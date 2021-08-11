@@ -1,6 +1,6 @@
 import React from 'react';
 import { Jumbotron, Container } from 'react-bootstrap';
-import './Privacy.styles.css';
+import './PrivacyJumbotron.styles.css';
 
 const PrivacyJumbotron = () => {
   return (

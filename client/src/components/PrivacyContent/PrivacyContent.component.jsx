@@ -233,8 +233,7 @@ const PrivacyContent = () => {
               href="https://www.mailgun.com/privacy-policy/"
               rel="external nofollow noopener noreferrer"
               target="_blank"
-            >
-              https://www.mailgun.com/privacy-policy/
+            > https://www.mailgun.com/privacy-policy/
             </a>
           </p>
         </li>

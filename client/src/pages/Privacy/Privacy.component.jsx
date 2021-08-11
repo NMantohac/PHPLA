@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Container, Row, Col } from 'react-bootstrap';
 import PrivacyJumbotron from '../../components/PrivacyJumbotron/PrivacyJumbotron.component';
 import PrivacyContent from '../../components/PrivacyContent/PrivacyContent.component';
@@ -6,6 +7,9 @@ import PrivacyContent from '../../components/PrivacyContent/PrivacyContent.compo
 const Privacy = () => {
   return (
     <div>
+      <Helmet>
+        <title>PHPLA | Privacy</title>
+      </Helmet>
       <PrivacyJumbotron />
       <Container>
         <Row>

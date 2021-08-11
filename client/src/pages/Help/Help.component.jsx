@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Container, Row, Col } from 'react-bootstrap';
 import HelpJumbotron from '../../components/HelpJumbotron/HelpJumbotron.component';
 import HelpInfo from '../../components/HelpInfo/HelpInfo.component';
@@ -7,6 +8,9 @@ import HelpForm from '../../containers/HelpForm/HelpForm.component';
 const Help = () => {
   return (
     <div>
+      <Helmet>
+        <title>PHPLA | Help</title>
+      </Helmet>
       <HelpJumbotron />
       <Container>
         <Row>

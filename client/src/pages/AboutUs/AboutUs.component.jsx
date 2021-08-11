@@ -1,9 +1,15 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import AboutUsContent from '../../components/AboutUsContent/AboutUsContent.component';
 
 const AboutUs = () => {
   return (
-    <AboutUsContent />
+    <div>
+      <Helmet>
+        <title>PHPLA | About Us</title>
+      </Helmet>
+      <AboutUsContent />
+    </div>
   );
 };
 
