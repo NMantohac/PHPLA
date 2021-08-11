@@ -1,20 +1,22 @@
 const nodemailer = require('nodemailer');
-const mailGun = require('nodemailer-mailgun-transport');
 
-const auth = {
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
   auth: {
-    api_key: `${process.env.APIKEY}`,
-    domain: `${process.env.DOMAIN}`,
+    type: 'OAUTH2',
+    user: process.env.EMAIL,
+    pass: process.env.WORD,
+    clientId: process.env.OAUTH_CLIENTID,
+    clientSecret: process.env.OAUTH_CLIENT_SECRET,
+    refreshToken: process.env.OAUTH_REFRESH_TOKEN,
   },
-};
-
-const transporter = nodemailer.createTransport(mailGun(auth));
+});
 
 const sendMail = (email, subject, message) => {
   return new Promise((resolve, reject) => {
     const mailOptions = {
       from: email,
-      to: 'info@phplosangeles.org',
+      to: process.env.EMAIL,
       subject,
       html: message,
     };
