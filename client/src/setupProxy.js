@@ -2,7 +2,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 module.exports = function (app) {
   app.use('/email', createProxyMiddleware({
-    target: process.env.PORT,
+    target: 'http://localhost:3001',
     changeOrigin: true,
   }));
 };
