@@ -17,7 +17,7 @@ module.exports = {
       <p>${formMessage}</p>
       `;
 
-    console.log('Data: ', req.body);
+    // console.log('Data: ', req.body);
 
     try {
       await sendMail(formEmail, formSubject, message);

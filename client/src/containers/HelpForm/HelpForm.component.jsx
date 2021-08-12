@@ -71,9 +71,7 @@ class HelpForm extends Component {
         formMessage,
       };
 
-      await axios.post('/email', data)
-        .then((response) => { console.log(response.data); })
-        .catch((err) => console.log(err.response.data));
+      await axios.post('/email', data);
 
       // console.log('Message sent to the server!');
 

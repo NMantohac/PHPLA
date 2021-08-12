@@ -15,7 +15,7 @@ const transporter = nodemailer.createTransport({
 const sendMail = async (email, subject, message) => {
   const mailOptions = {
     from: email,
-    to: process.env.EMAIL,
+    to: 'info@phplosangeles.org',
     subject,
     html: message,
   };
