@@ -17,15 +17,15 @@ module.exports = {
       <p>${formMessage}</p>
       `;
 
-    // console.log('Data: ', req.body);
+    console.log('Data: ', req.body);
 
     try {
-      const { data } = await sendMail(formEmail, formSubject, message);
+      await sendMail(formEmail, formSubject, message);
       // console.log('I am hit with a data message!');
-      return res.status(200).json({ message: 'Email Sent', data });
+      return res.status(200).json({ message: 'Email Sent' });
     } catch (e) {
       // console.log('I am hit with an error message!');
-      console.log(e);
+      // console.log(e.response.data);
       return res.status(500).json({ e });
     }
   },

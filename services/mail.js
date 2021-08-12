@@ -12,27 +12,26 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-const sendMail = (email, subject, message) => {
-  return new Promise((resolve, reject) => {
-    const mailOptions = {
-      from: email,
-      to: process.env.EMAIL,
-      subject,
-      html: message,
-    };
+const sendMail = async (email, subject, message) => {
+  const mailOptions = {
+    from: email,
+    to: process.env.EMAIL,
+    subject,
+    html: message,
+  };
 
-    transporter.sendMail(mailOptions, (err, data) => {
+  try {
+    await transporter.sendMail(mailOptions, (err, data) => {
       if (err) {
         // console.log('I am hit inside mail.js error message!');
         console.log(err);
-        reject(err);
       } else {
-        // console.log('I am hit inside mail.js with data message!');
         console.log(data);
-        resolve(data);
       }
     });
-  });
+  } catch (err) {
+    console.log(err);
+  }
 };
 
 module.exports = sendMail;
