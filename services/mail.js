@@ -1,6 +1,7 @@
 const nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
+  name: process.env.EMAIL,
   service: 'gmail',
   auth: {
     type: 'OAUTH2',
@@ -15,7 +16,7 @@ const transporter = nodemailer.createTransport({
 const sendMail = async (email, subject, message) => {
   const mailOptions = {
     from: email,
-    to: 'info@phplosangeles.org',
+    to: process.env.EMAIL,
     subject,
     html: message,
   };
