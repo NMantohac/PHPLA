@@ -25,12 +25,10 @@ const sendMail = async (email, subject, message) => {
   };
 
   try {
-    await transporter.sendMail(mailOptions, (err, data) => {
+    await transporter.sendMail(mailOptions, (err) => {
       if (err) {
         // console.log('I am hit inside mail.js error message!');
         console.log(err);
-      } else {
-        console.log(data);
       }
     });
   } catch (err) {
