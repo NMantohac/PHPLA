@@ -15,6 +15,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
 
+app.use(routes);
+
 if (process.env.NODE_ENV === 'production') {
   app.use('/', express.static(path.join(__dirname, 'client/build')));
   app.get('*', (req, res) => {
@@ -27,8 +29,6 @@ app.get('*.js', (req, res, next) => {
   res.set('Content-Encoding', 'gzip');
   next();
 });
-
-app.use(routes);
 
 app.listen(PORT, () => {
   console.log(`Server listening on PORT: ${PORT}`);
