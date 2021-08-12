@@ -2,7 +2,7 @@ const nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
   name: process.env.WEBSITE,
-  host: process.env.WEBSITE,
+  host: 'smtp.phplosangeles.org',
   port: 465,
   secure: true,
   service: 'gmail',
