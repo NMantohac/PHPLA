@@ -25,6 +25,7 @@ module.exports = {
       return res.status(200).json({ message: 'Email Sent', data });
     } catch (e) {
       // console.log('I am hit with an error message!');
+      console.log(e);
       return res.status(500).json({ e });
     }
   },
