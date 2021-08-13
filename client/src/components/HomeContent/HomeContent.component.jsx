@@ -71,7 +71,7 @@ const HomeContent = () => {
             </Slide>
           </Col>
           <Col xs={{ span: 12, order: 1 }} sm={{ span: 12, order: 1 }} md={{ span: 6, order: 12 }} lg={{ span: 6, order: 12 }} xl={{ span: 6, order: 12 }}>
-            <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1628817192/samples/PHPLA%20-%20WebP/home-6_blzjut.webp" large="https://res.cloudinary.com/trizept/image/upload/v1628817192/samples/PHPLA%20-%20WebP/home-6_blzjut.webp" showRotate="true" alt="Feeling Blessed With A Smile" />
+            <ModalImage small="https://res.cloudinary.com/trizept/image/upload/c_scale,q_100,w_540/v1628817192/samples/PHPLA%20-%20WebP/home-6_blzjut.webp" large="https://res.cloudinary.com/trizept/image/upload/c_scale,q_100,w_540/v1628817192/samples/PHPLA%20-%20WebP/home-6_blzjut.webp" showRotate="true" alt="Feeling Blessed With A Smile" />
           </Col>
         </Row>
       </Container>
