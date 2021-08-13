@@ -4,7 +4,7 @@ import ChatBot from 'react-simple-chatbot';
 import { ThemeProvider } from 'styled-components';
 import './ChatBot.styles.css';
 
-const ChatBotAvatar = require('./ChatBotAvatar.png');
+const ChatBotAvatar = require('./chatbot-avatar.webp');
 
 const theme = {
   background: '#f5f8fb',

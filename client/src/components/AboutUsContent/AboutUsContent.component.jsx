@@ -12,7 +12,7 @@ const AboutUsContent = () => {
           <Col>
             <CardDeck>
               <Card border="warning">
-                <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1594410100/about-us-1_bwbr5n.jpg" large="https://res.cloudinary.com/trizept/image/upload/v1594410100/about-us-1_bwbr5n.jpg" showRotate="true" variant="top" alt="Overview" />
+                <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1628817190/samples/PHPLA%20-%20WebP/about-us-1_c9yse8.webp" large="https://res.cloudinary.com/trizept/image/upload/v1628817190/samples/PHPLA%20-%20WebP/about-us-1_c9yse8.webp" showRotate="true" variant="top" alt="Overview" />
                 <Fade top>
                   <Card.Body style={{ textAlign: 'center' }}>
                     <Card.Title className="about-us-card-title" style={{ fontSize: '48px' }}>Overview</Card.Title>
@@ -23,7 +23,7 @@ const AboutUsContent = () => {
                 </Fade>
               </Card>
               <Card border="warning">
-                <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1594410100/about-us-2_ukjygt.jpg" large="https://res.cloudinary.com/trizept/image/upload/v1594410100/about-us-2_ukjygt.jpg" showRotate="true" variant="top" alt="Mission" />
+                <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1628817190/samples/PHPLA%20-%20WebP/about-us-2_e5w5az.webp" large="https://res.cloudinary.com/trizept/image/upload/v1628817190/samples/PHPLA%20-%20WebP/about-us-2_e5w5az.webp" showRotate="true" variant="top" alt="Mission" />
                 <Fade top>
                   <Card.Body style={{ textAlign: 'center' }}>
                     <Card.Title className="about-us-card-title" style={{ fontSize: '48px' }}>Mission</Card.Title>
@@ -40,7 +40,7 @@ const AboutUsContent = () => {
           <Col>
             <CardDeck>
               <Card border="warning">
-                <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1594410101/about-us-3_h6avqa.jpg" large="https://res.cloudinary.com/trizept/image/upload/v1594410101/about-us-3_h6avqa.jpg" showRotate="true" variant="top" alt="Vision" />
+                <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1628817190/samples/PHPLA%20-%20WebP/about-us-3_pi1pxf.webp" large="https://res.cloudinary.com/trizept/image/upload/v1628817190/samples/PHPLA%20-%20WebP/about-us-3_pi1pxf.webp" showRotate="true" variant="top" alt="Vision" />
                 <Fade bottom>
                   <Card.Body style={{ textAlign: 'center' }}>
                     <Card.Title className="about-us-card-title" style={{ fontSize: '48px' }}>Vision</Card.Title>
@@ -51,7 +51,7 @@ const AboutUsContent = () => {
                 </Fade>
               </Card>
               <Card border="warning">
-                <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1594410101/about-us-4_icbp3c.jpg" large="https://res.cloudinary.com/trizept/image/upload/v1594410101/about-us-4_icbp3c.jpg" showRotate="true" variant="top" alt="Values" />
+                <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1628817190/samples/PHPLA%20-%20WebP/about-us-4_awiyuj.webp" large="https://res.cloudinary.com/trizept/image/upload/v1628817190/samples/PHPLA%20-%20WebP/about-us-4_awiyuj.webp" showRotate="true" variant="top" alt="Values" />
                 <Fade bottom>
                   <Card.Body style={{ textAlign: 'center' }}>
                     <Card.Title className="about-us-card-title" style={{ fontSize: '48px' }}>Values</Card.Title>

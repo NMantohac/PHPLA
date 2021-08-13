@@ -14,7 +14,7 @@ const Footer = () => {
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow className="align-items-center">
           <MDBCol md="6" lg="7" xl="7">
-            <Image src="https://res.cloudinary.com/trizept/image/upload/v1594505093/rsz_rsz_footer-logo_gcdoxe_5f7a81b06ed16ddcc1e338e32a73352c_nkjrbl-min_qgj9wr_ktkq2y.png" height="100" width="300" fluid alt="Footer Logo" className="d-inline-block align-top logo" />
+            <Image src="https://res.cloudinary.com/trizept/image/upload/v1628817191/samples/PHPLA%20-%20WebP/footer-logo_i1ckbm.webp" height="100" width="300" fluid alt="Footer Logo" className="d-inline-block align-top logo" />
             <p style={{ marginTop: '20px', marginLeft: '5px' }}>
               People Helping People In Los Angeles Inc. (PHPLA) is a 501(c)(3) non-profit organization wholeheartedly dedicated to accomplishing one overall goal: helping those in need.
             </p>

@@ -10,7 +10,7 @@ const HomeContent = () => {
       <Container style={{ textAlign: 'center' }}>
         <Row style={{ marginTop: '30px', marginBottom: '30px' }}>
           <Col xs={12} sm={12} md={6} lg={6} xl={6}>
-            <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1594504893/rsz_rsz_bg-1_f3paxc-min_vwooyb_igibdd.jpg" large="https://res.cloudinary.com/trizept/image/upload/v1594422060/rsz_bg-1_f3paxc-min_vwooyb.jpg" showRotate="true" alt="When troubles crossed path on you" />
+            <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1628817190/samples/PHPLA%20-%20WebP/home-1_btlxwk.webp" large="https://res.cloudinary.com/trizept/image/upload/v1628817190/samples/PHPLA%20-%20WebP/home-1_btlxwk.webp" showRotate="true" alt="When troubles crossed path on you" />
           </Col>
           <Col xs={12} sm={12} md={6} lg={6} xl={6} className="home-text-col">
             <Slide right>
@@ -27,12 +27,12 @@ const HomeContent = () => {
             </Slide>
           </Col>
           <Col xs={{ span: 12, order: 1 }} sm={{ span: 12, order: 1 }} md={{ span: 6, order: 12 }} lg={{ span: 6, order: 12 }} xl={{ span: 6, order: 12 }}>
-            <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1594504947/rsz_rsz_bg-2_f2gy1t-min_amvsdt_ayi1zm.jpg" large="https://res.cloudinary.com/trizept/image/upload/v1594422062/rsz_bg-2_f2gy1t-min_amvsdt.jpg" showRotate="true" alt="Hope Is Never Forgotten" />
+            <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1628817190/samples/PHPLA%20-%20WebP/home-2_zehmpm.webp" large="https://res.cloudinary.com/trizept/image/upload/v1628817190/samples/PHPLA%20-%20WebP/home-2_zehmpm.webp" showRotate="true" alt="Hope Is Never Forgotten" />
           </Col>
         </Row>
         <Row style={{ marginBottom: '30px' }}>
           <Col xs={12} sm={12} md={6} lg={6} xl={6}>
-            <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1594504978/rsz_rsz_1bg-3_qpatbi-min_zihncf_c9pzsk.jpg" large="https://res.cloudinary.com/trizept/image/upload/v1594422064/rsz_1bg-3_qpatbi-min_zihncf.jpg" showRotate="true" alt="PHPLA The Acronym Of Help" />
+            <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1628817190/samples/PHPLA%20-%20WebP/home-3_usipzd.webp" large="https://res.cloudinary.com/trizept/image/upload/v1628817190/samples/PHPLA%20-%20WebP/home-3_usipzd.webp" showRotate="true" alt="PHPLA The Acronym Of Help" />
           </Col>
           <Col xs={12} sm={12} md={6} lg={6} xl={6} className="home-text-col">
             <Slide right>
@@ -49,12 +49,12 @@ const HomeContent = () => {
             </Slide>
           </Col>
           <Col xs={{ span: 12, order: 1 }} sm={{ span: 12, order: 1 }} md={{ span: 6, order: 12 }} lg={{ span: 6, order: 12 }} xl={{ span: 6, order: 12 }}>
-            <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1594505011/rsz_bg-4_pj21gx_jecvpg.jpg" large="https://res.cloudinary.com/trizept/image/upload/v1594410100/bg-4_pj21gx.jpg" showRotate="true" alt="Recovery Is Forthcoming" />
+            <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1628817192/samples/PHPLA%20-%20WebP/home-4_pfewvr.webp" large="https://res.cloudinary.com/trizept/image/upload/v1628817192/samples/PHPLA%20-%20WebP/home-4_pfewvr.webp" showRotate="true" alt="Recovery Is Forthcoming" />
           </Col>
         </Row>
         <Row style={{ marginBottom: '30px' }}>
           <Col xs={12} sm={12} md={6} lg={6} xl={6}>
-            <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1594505048/rsz_bg-5_kyfu1r_kgbndg.jpg" large="https://res.cloudinary.com/trizept/image/upload/v1594410100/bg-5_kyfu1r.jpg" showRotate="true" alt="An Afterthought Of Joy" />
+            <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1628817192/samples/PHPLA%20-%20WebP/home-5_tqbdxr.webp" large="https://res.cloudinary.com/trizept/image/upload/v1628817192/samples/PHPLA%20-%20WebP/home-5_tqbdxr.webp" showRotate="true" alt="An Afterthought Of Joy" />
           </Col>
           <Col xs={12} sm={12} md={6} lg={6} xl={6} className="home-text-col">
             <Slide right>
@@ -71,7 +71,7 @@ const HomeContent = () => {
             </Slide>
           </Col>
           <Col xs={{ span: 12, order: 1 }} sm={{ span: 12, order: 1 }} md={{ span: 6, order: 12 }} lg={{ span: 6, order: 12 }} xl={{ span: 6, order: 12 }}>
-            <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1594410101/bg-6_tk4opq.jpg" large="https://res.cloudinary.com/trizept/image/upload/v1594410101/bg-6_tk4opq.jpg" showRotate="true" alt="Feeling Blessed With A Smile" />
+            <ModalImage small="https://res.cloudinary.com/trizept/image/upload/v1628817192/samples/PHPLA%20-%20WebP/home-6_blzjut.webp" large="https://res.cloudinary.com/trizept/image/upload/v1628817192/samples/PHPLA%20-%20WebP/home-6_blzjut.webp" showRotate="true" alt="Feeling Blessed With A Smile" />
           </Col>
         </Row>
       </Container>
