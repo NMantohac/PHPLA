@@ -8,13 +8,13 @@ import './Navbar.styles.css';
 
 function scrollFunction() {
   if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) {
-    document.querySelector('.navbar').style.padding = '2px 10px';
-    document.querySelector('.navbar-logo').style.height = '70px';
-    document.querySelector('.navbar-logo').style.width = '150px';
+    document.querySelector('#navbar').style.padding = '2px 10px';
+    document.querySelector('#navbar-logo').style.height = '70px';
+    document.querySelector('#navbar-logo').style.width = '150px';
   } else {
-    document.querySelector('.navbar').style.padding = '10px 10px';
-    document.querySelector('.navbar-logo').style.height = '100px';
-    document.querySelector('.navbar-logo').style.width = '220px';
+    document.querySelector('#navbar').style.padding = '10px 10px';
+    document.querySelector('#navbar-logo').style.height = '100px';
+    document.querySelector('#navbar-logo').style.width = '220px';
   }
 }
 
@@ -26,11 +26,11 @@ const ReactNavbar = () => {
 
   return (
     <div style={{ height: '130px' }}>
-      <Navbar bg="light" expand="lg" sticky="top" className="navbar">
+      <Navbar bg="light" expand="lg" sticky="top" id="navbar">
 
         <Navbar.Brand as={Link} to="/" style={{ marginLeft: '5px' }}>
           <Fade right>
-            <Image src="https://res.cloudinary.com/trizept/image/upload/v1628817191/samples/PHPLA%20-%20WebP/navbar-logo_ta8nhw.webp" fluid alt="PHPLA Brand Logo" className="d-inline-block align-top logo navbar-logo" />
+            <Image src="https://res.cloudinary.com/trizept/image/upload/v1628817191/samples/PHPLA%20-%20WebP/navbar-logo_ta8nhw.webp" fluid alt="PHPLA Brand Logo" id="navbar-logo" className="d-inline-block align-top logo" />
           </Fade>
         </Navbar.Brand>
 

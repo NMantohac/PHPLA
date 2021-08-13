@@ -1,4 +1,4 @@
-.navbar {
+#navbar {
   width: 100%;
   position: fixed;
   overflow-anchor: none;
@@ -6,7 +6,7 @@
   z-index: 1;
 }
 
-.navbar-logo {
+#navbar-logo {
   height: 100px;
   width: 220px;
   transition: 0.5s;

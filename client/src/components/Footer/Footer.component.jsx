@@ -97,10 +97,10 @@ const Footer = () => {
             </MDBCol>
             <MDBCol xs="12" sm="12" md="6" lg="4" xl="4">
               <Nav className="justify-content-end footer-privacy-terms" style={{ marginTop: '-15px' }}>
-                <Nav.Link as={Link} to="/privacy" onclick="return gtag_report_conversion('https://www.phplosangeles.org/privacy');" className="text-muted link-privacy" style={{ color: 'black', fontSize: '14px' }}>
+                <Nav.Link as={Link} to="/privacy" onclick="return gtag_report_conversion('https://www.phplosangeles.org/privacy');" id="link-privacy" className="text-muted" style={{ color: 'black', fontSize: '14px' }}>
                   Privacy |
                 </Nav.Link>
-                <Nav.Link as={Link} to="/terms-conditions" onclick="return gtag_report_conversion('https://www.phplosangeles.org/terms-conditions');" className="text-muted link-terms" style={{ marginLeft: '-28px', color: 'black', fontSize: '14px' }}>
+                <Nav.Link as={Link} to="/terms-conditions" onclick="return gtag_report_conversion('https://www.phplosangeles.org/terms-conditions');" id="link-terms" className="text-muted" style={{ marginLeft: '-28px', color: 'black', fontSize: '14px' }}>
                   Terms and Conditions
                 </Nav.Link>
               </Nav>

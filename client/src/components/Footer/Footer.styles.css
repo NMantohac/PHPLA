@@ -3,8 +3,8 @@
   border-top: #fe6902 solid 3px;
 }
 
-.link-privacy:hover,
-.link-terms:hover {
+#link-privacy:hover,
+#link-terms:hover {
   text-decoration: underline;
 }
 
