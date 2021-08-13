@@ -149,7 +149,7 @@ class HelpForm extends Component {
           </Form.Row>
 
           <div style={{ textAlign: 'center' }}>
-            <Button variant="light" type="submit" onClick={"return gtag_report_conversion('https://www.phplosangeles.org/help')", (event) => this.handleSubmit(event)} disabled={this.loading} className="help-button">
+            <Button variant="light" type="submit" onClick={"return gtag_report_conversion('https://www.phplosangeles.org/help')", (event) => this.handleSubmit(event)} disabled={this.loading} id="help-button">
               { this.loading ? (
                 <Spinner
                   as="span"
