@@ -40,24 +40,24 @@ const ReactNavbar = () => {
           <Nav activeKey="/" className="ml-auto">
             <ul className="navbar-ul">
               <li className="navbar-li">
-                <Nav.Link onclick="return gtag_report_conversion('tel:833-467-4752');" href="tel:833-467-4752" className="navbar-phone nav-link">
+                <Nav.Link href="tel:833-467-4752" className="navbar-phone nav-link">
                   <FontAwesomeIcon icon={faPhoneAlt} style={{ marginRight: '6px' }} />
                 </Nav.Link>
               </li>
               <li className="navbar-li">
-                <Nav.Link as={Link} to="/home" className={location.pathname === '/home' ? 'nav-link active navbar-home' : 'nav-link navbar-home'} onclick="return gtag_report_conversion('https://www.phplosangeles.org/home');">
+                <Nav.Link as={Link} to="/home" className={location.pathname === '/home' ? 'nav-link active navbar-home' : 'nav-link navbar-home'}>
                   <FontAwesomeIcon icon={faHome} style={{ marginRight: '6px' }} />
                   Home
                 </Nav.Link>
               </li>
               <li className="navbar-li">
-                <Nav.Link as={Link} to="/about-us" className={location.pathname === '/about-us' ? 'nav-link active navbar-about' : 'nav-link navbar-about'} onclick="return gtag_report_conversion('https://www.phplosangeles.org/about-us');">
+                <Nav.Link as={Link} to="/about-us" className={location.pathname === '/about-us' ? 'nav-link active navbar-about' : 'nav-link navbar-about'}>
                   <FontAwesomeIcon icon={faUsers} style={{ marginRight: '6px' }} />
                   About Us
                 </Nav.Link>
               </li>
               <li className="navbar-li">
-                <Nav.Link as={Link} to="/help" className={location.pathname === '/help' ? 'nav-link active navbar-help' : 'nav-link navbar-help'} onclick="return gtag_report_conversion('https://www.phplosangeles.org/help');">
+                <Nav.Link as={Link} to="/help" className={location.pathname === '/help' ? 'nav-link active navbar-help' : 'nav-link navbar-help'}>
                   <FontAwesomeIcon icon={faQuestionCircle} style={{ marginRight: '6px' }} />
                   Help
                 </Nav.Link>
@@ -68,7 +68,7 @@ const ReactNavbar = () => {
                   Help
                 </Button>
               </Nav.Link> */}
-              <Nav.Link onclick="return gtag_report_conversion('https://charity.gofundme.com/o/en/campaign/alleviating-hunger');" href="https://charity.gofundme.com/o/en/campaign/alleviating-hunger" target="_blank" rel="noopener noreferrer" style={{ fontSize: '18px' }}>
+              <Nav.Link href="https://charity.gofundme.com/o/en/campaign/alleviating-hunger" target="_blank" rel="noopener noreferrer" style={{ fontSize: '18px' }}>
                 <Button variant="outline-danger" size="lg" className="navbar-donate-button">
                   <FontAwesomeIcon icon={faHeart} style={{ marginRight: '10px' }} />
                   Donate

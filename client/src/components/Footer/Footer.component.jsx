@@ -28,25 +28,25 @@ const Footer = () => {
             <ul className="list-unstyled" style={{ fontSize: '15px' }}>
               <li>
                 <FontAwesomeIcon icon={faMapMarkerAlt} style={{ marginRight: '10px' }} />
-                <a onClick="return gtag_report_conversion('https://www.google.com/maps/dir//people+helping+people+in+los+angeles+inc/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c2c79e0409138f:0x50a63f61975f8a77!2m2!1d-118.2745293!2d34.057139899999996');" href="https://www.google.com/maps/dir//people+helping+people+in+los+angeles+inc/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c2c79e0409138f:0x50a63f61975f8a77!2m2!1d-118.2745293!2d34.057139899999996" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
+                <a href="https://www.google.com/maps/dir//people+helping+people+in+los+angeles+inc/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c2c79e0409138f:0x50a63f61975f8a77!2m2!1d-118.2745293!2d34.057139899999996" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
                   1930 Wilshire Blvd Ste 509 Los Angeles, CA 90057
                 </a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '10px' }} />
-                <a onClick="return gtag_report_conversion('mailto:info@phplosangeles.org');" href="mailto:info@phplosangeles.org" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
+                <a href="mailto:info@phplosangeles.org" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
                   info@phplosangeles.org
                 </a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faPhoneAlt} style={{ marginRight: '10px' }} />
-                <a onClick="return gtag_report_conversion('tel:833-467-4752');" href="tel:833-467-4752" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
+                <a href="tel:833-467-4752" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
                   (833) 467-4752
                 </a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faFax} style={{ marginRight: '10px' }} />
-                <a onClick="return gtag_report_conversion('tel:818-812-6590');" href="tel:818-812-6590" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
+                <a href="tel:818-812-6590" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
                   (818) 812-6590
                 </a>
               </li>
@@ -59,28 +59,28 @@ const Footer = () => {
         <ul className="list-unstyled list-inline">
           <Slide left>
             <li className="list-inline-item">
-              <a onClick="return gtag_report_conversion('https://www.facebook.com/PHPinLA');" href="https://www.facebook.com/PHPinLA" target="_blank" rel="noopener noreferrer" className="btn-floating btn-lg mx-1">
+              <a href="https://www.facebook.com/PHPinLA" target="_blank" rel="noopener noreferrer" className="btn-floating btn-lg mx-1">
                 <FontAwesomeIcon icon={faFacebook} className="logo-facebook" style={{ color: '#4267B2', fontSize: '32px' }} />
               </a>
             </li>
           </Slide>
           <Slide left>
             <li className="list-inline-item">
-              <a onClick="return gtag_report_conversion('https://twitter.com/PHPinLA');" href="https://twitter.com/PHPinLA" target="_blank" rel="noopener noreferrer" className="btn-floating btn-lg mx-1">
+              <a href="https://twitter.com/PHPinLA" target="_blank" rel="noopener noreferrer" className="btn-floating btn-lg mx-1">
                 <FontAwesomeIcon icon={faTwitter} className="logo-twitter" style={{ color: '#1DA1F2', fontSize: '32px' }} />
               </a>
             </li>
           </Slide>
           <Slide right>
             <li className="list-inline-item">
-              <a onClick="return gtag_report_conversion('https://m.youtube.com/channel/UCGYBwM805xYHlfyj6rOm16Q/');" href="https://m.youtube.com/channel/UCGYBwM805xYHlfyj6rOm16Q/" target="_blank" rel="noopener noreferrer" className="btn-floating btn-lg mx-1">
+              <a href="https://m.youtube.com/channel/UCGYBwM805xYHlfyj6rOm16Q/" target="_blank" rel="noopener noreferrer" className="btn-floating btn-lg mx-1">
                 <FontAwesomeIcon icon={faYoutube} className="logo-youtube" style={{ color: '#FF0000', fontSize: '32px' }} />
               </a>
             </li>
           </Slide>
           <Slide right>
             <li className="list-inline-item">
-              <a onClick="return gtag_report_conversion('https://www.linkedin.com/in/norberto-mantohac-58208a1b1?trk=people-guest_people_search-card');" href="https://www.linkedin.com/in/norberto-mantohac-58208a1b1?trk=people-guest_people_search-card" target="_blank" rel="noopener noreferrer" className="btn-floating btn-lg mx-1">
+              <a href="https://www.linkedin.com/in/norberto-mantohac-58208a1b1?trk=people-guest_people_search-card" target="_blank" rel="noopener noreferrer" className="btn-floating btn-lg mx-1">
                 <FontAwesomeIcon icon={faLinkedin} className="logo-linkedin" style={{ color: '#2867B2', fontSize: '32px' }} />
               </a>
             </li>
@@ -92,15 +92,15 @@ const Footer = () => {
           <MDBRow className="d-flex align-items-center">
             <MDBCol xs="12" sm="12" md="6" lg="8" xl="8" className="text-md-left">
               <p className="text-muted" style={{ fontSize: '14px', marginLeft: '5px' }}>
-                &copy; Copyright {new Date().getFullYear()} People Helping People In Los Angeles Inc. All Rights Reserved. Designed by <a onClick="return gtag_report_conversion('https://nmantohac-react-portfolio.netlify.app/');" href="https://nmantohac-react-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer"><strong style={{ color: '#fe6902' }}>Vivid Stack</strong></a>
+                &copy; Copyright {new Date().getFullYear()} People Helping People In Los Angeles Inc. All Rights Reserved. Designed by <a href="https://nmantohac-react-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer"><strong style={{ color: '#fe6902' }}>Vivid Stack</strong></a>
               </p>
             </MDBCol>
             <MDBCol xs="12" sm="12" md="6" lg="4" xl="4">
               <Nav className="justify-content-end footer-privacy-terms" style={{ marginTop: '-15px' }}>
-                <Nav.Link as={Link} to="/privacy" onclick="return gtag_report_conversion('https://www.phplosangeles.org/privacy');" id="link-privacy" className="text-muted" style={{ color: 'black', fontSize: '14px' }}>
+                <Nav.Link as={Link} to="/privacy" id="link-privacy" className="text-muted" style={{ color: 'black', fontSize: '14px' }}>
                   Privacy |
                 </Nav.Link>
-                <Nav.Link as={Link} to="/terms-conditions" onclick="return gtag_report_conversion('https://www.phplosangeles.org/terms-conditions');" id="link-terms" className="text-muted" style={{ marginLeft: '-28px', color: 'black', fontSize: '14px' }}>
+                <Nav.Link as={Link} to="/terms-conditions" id="link-terms" className="text-muted" style={{ marginLeft: '-28px', color: 'black', fontSize: '14px' }}>
                   Terms and Conditions
                 </Nav.Link>
               </Nav>
