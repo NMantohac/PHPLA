@@ -28,8 +28,8 @@ const Footer = () => {
             <ul className="list-unstyled" style={{ fontSize: '15px' }}>
               <li>
                 <FontAwesomeIcon icon={faMapMarkerAlt} style={{ marginRight: '10px' }} />
-                <a href="https://www.google.com/maps/dir//people+helping+people+in+los+angeles+inc/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c2c79e0409138f:0x50a63f61975f8a77!2m2!1d-118.2745293!2d34.057139899999996" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
-                  1930 Wilshire Blvd Ste 509 Los Angeles, CA 90057
+                <a href="https://www.google.com/maps/dir//7911+S+Western+Ave,+Los+Angeles,+CA+90047/@33.9666728,-118.3107267,17.75z/data=!3m1!5s0x80c2c7a18679283f:0x29ee3944ec7127ab!4m8!4m7!1m0!1m5!1m1!1s0x80c2b62da6e78199:0xeabb19dc667a6c26!2m2!1d-118.309258!2d33.9668847" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
+                  7911 S. Western Ave., Los Angeles, California 90047
                 </a>
               </li>
               <li>

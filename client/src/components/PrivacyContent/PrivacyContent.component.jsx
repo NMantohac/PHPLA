@@ -216,28 +216,6 @@ const PrivacyContent = () => {
         means to protect Your Personal Data, We cannot guarantee its absolute
         security.
       </p>
-      <h2>Detailed Information on the Processing of Your Personal Data</h2>
-      <p>
-        Service Providers have access to Your Personal Data only to perform
-        their tasks on Our behalf and are obligated not to disclose or use it
-        for any other purpose.
-      </p>
-      <ul>
-        <li>
-          <p>
-            <strong>MailGun</strong>
-          </p>
-          <p>
-            Their Privacy Policy can be viewed at
-            <a
-              href="https://www.mailgun.com/privacy-policy/"
-              rel="external nofollow noopener noreferrer"
-              target="_blank"
-            > https://www.mailgun.com/privacy-policy/
-            </a>
-          </p>
-        </li>
-      </ul>
     </div>
   );
 };
