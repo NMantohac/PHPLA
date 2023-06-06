@@ -6,6 +6,10 @@ import HelpInfo from '../../components/HelpInfo/HelpInfo.component';
 import HelpForm from '../../containers/HelpForm/HelpForm.component';
 
 const Help = () => {
+  <Helmet>
+    <title>{Help}</title>
+    <link rel="canonical" href="https://www.phplosangeles.org/help" />
+  </Helmet>
   return (
     <div>
       <Helmet>

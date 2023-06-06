@@ -5,6 +5,10 @@ import TermsJumbotron from '../../components/TermsJumbotron/TermsJumbotron.compo
 import TermsContent from '../../components/TermsContent/TermsContent.component';
 
 const TermsAndConditions = () => {
+  <Helmet>
+    <title>{TermsAndConditions}</title>
+    <link rel="canonical" href="https://www.phplosangeles.org/terms-conditions" />
+  </Helmet>
   return (
     <div>
       <Helmet>
