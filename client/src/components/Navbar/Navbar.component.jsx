@@ -68,7 +68,7 @@ const ReactNavbar = () => {
                   Help
                 </Button>
               </Nav.Link> */}
-              <Nav.Link href="https://donate.stripe.com/3cseV0cHD8oL3Xq3cc" target="_blank" rel="noopener noreferrer" style={{ fontSize: '18px' }}>
+              <Nav.Link href="https://donate.stripe.com/7sIg0Gbmk3Jk6iIeUU" target="_blank" rel="noopener noreferrer" style={{ fontSize: '18px' }}>
                 <Button variant="outline-danger" size="lg" className="navbar-donate-button">
                   <FontAwesomeIcon icon={faHeart} style={{ marginRight: '10px' }} />
                   Donate
