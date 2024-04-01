@@ -58,6 +58,11 @@ class ChatBotFeature extends Component {
     this.props.history.push('/about-us');
   };
 
+  handleServices = () => {
+    this.setState({ opened: false});
+    this.props.history.push('/services');
+  };
+
   handleHelp = () => {
     this.setState({ opened: false });
     this.props.history.push('/help');
@@ -87,8 +92,9 @@ class ChatBotFeature extends Component {
               id: '2',
               options: [
                 { value: 1, label: 'Learn More About PHPLA', trigger: '3' },
-                { value: 2, label: 'Submit a Help Form', trigger: '4' },
-                { value: 3, label: 'Contact Info', trigger: '5' },
+                { value: 2, label: 'Learn More About Our Services', trigger: '4'},
+                { value: 3, label: 'Submit a Help Form', trigger: '5' },
+                { value: 4, label: 'Contact Info', trigger: '6' },
               ],
             },
             {
@@ -96,37 +102,45 @@ class ChatBotFeature extends Component {
               message: 'I will redirect you to the About Us page.',
               trigger: () => {
                 setTimeout(() => this.handleAboutUs(), 1500);
-                return '6';
+                return '7';
               },
             },
             {
               id: '4',
-              message: 'I will redirect you to the Help page.',
+              message: 'I will redirect you to the Services page.',
               trigger: () => {
-                setTimeout(() => this.handleHelp(), 1500);
-                return '6';
+                setTimeout(() => this.handleServices(), 1500);
+                return '7';
               },
             },
             {
               id: '5',
-              message: 'Call (833) 467-4752 or email info@phplosangeles.org if you have any questions or want to know more information about us.',
-              trigger: '6',
+              message: 'I will redirect you to the Help page.',
+              trigger: () => {
+                setTimeout(() => this.handleHelp(), 1500);
+                return '7';
+              },
             },
             {
               id: '6',
-              message: 'Would you like to see the options again?',
-              delay: 3000,
+              message: 'Call (833) 467-4752 or email info@phplosangeles.org if you have any questions or want to know more information about us.',
               trigger: '7',
             },
             {
               id: '7',
-              options: [
-                { value: 4, label: 'Yes', trigger: '2' },
-                { value: 5, label: 'No', trigger: '8' },
-              ],
+              message: 'Would you like to see the options again?',
+              delay: 3000,
+              trigger: '8',
             },
             {
               id: '8',
+              options: [
+                { value: 5, label: 'Yes', trigger: '2' },
+                { value: 6, label: 'No', trigger: '9' },
+              ],
+            },
+            {
+              id: '9',
               message: 'Thank you for using the PHPLA support feature. Have a nice day!',
               end: true,
             },

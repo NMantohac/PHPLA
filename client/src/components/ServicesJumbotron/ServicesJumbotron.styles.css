@@ -1,0 +1,15 @@
+.services-jumbotron {
+    background-image: url("https://res.cloudinary.com/trizept/image/upload/v1711941274/services_ctxjvk.webp");
+    background-position: 40% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.services-jumbotron-text {
+    margin: 0 auto;
+    color: white;
+    font-family: 'Amatic SC', serif;
+    font-size: 96px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+  }

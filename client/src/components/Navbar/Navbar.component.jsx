@@ -3,7 +3,7 @@ import { useLocation, Link } from 'react-router-dom';
 import { Image, Navbar, Nav, Button } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhoneAlt, faHome, faUsers, faQuestionCircle, faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faPhoneAlt, faHome, faUsers, faQuestionCircle, faHeart, faHandshake } from '@fortawesome/free-solid-svg-icons';
 import './Navbar.styles.css';
 
 function scrollFunction() {
@@ -54,6 +54,12 @@ const ReactNavbar = () => {
                 <Nav.Link as={Link} to="/about-us" className={location.pathname === '/about-us' ? 'nav-link active navbar-about' : 'nav-link navbar-about'}>
                   <FontAwesomeIcon icon={faUsers} style={{ marginRight: '6px' }} />
                   About Us
+                </Nav.Link>
+              </li>
+              <li className="navbar-li">
+                <Nav.Link as={Link} to="/services" className={location.pathname === '/services' ? 'nav-link active navbar-services' : 'nav-link navbar-services'}>
+                  <FontAwesomeIcon icon={faHandshake} style={{ marginRight: '6px' }} />
+                  Services
                 </Nav.Link>
               </li>
               <li className="navbar-li">

@@ -31,6 +31,7 @@
 .navbar-phone,
 .navbar-home,
 .navbar-about,
+.navbar-services,
 .navbar-help {
   padding: 10px 5px;
   z-index: 1;
@@ -67,6 +68,7 @@
 .navbar-phone:before,
 .navbar-home:before,
 .navbar-about:before,
+.navbar-services:before,
 .navbar-help:before {
   content: '';
   height: 33.33%;
@@ -99,6 +101,12 @@
 
 .navbar-li:hover:before,
 .navbar-li:hover:after,
+.navbar-li:hover .navbar-services:before {
+  width: 92%
+}
+
+.navbar-li:hover:before,
+.navbar-li:hover:after,
 .navbar-li:hover .navbar-help:before {
   width: 92%
 }
@@ -125,6 +133,7 @@
   .navbar-phone,
   .navbar-home,
   .navbar-about,
+  .navbar-services,
   .navbar-help {
     margin: 0 auto;
     font-size: 20px;
@@ -145,6 +154,12 @@
   .navbar-li:hover:before,
   .navbar-li:hover:after,
   .navbar-li:hover .navbar-about:before {
+    display: none;
+  }
+
+  .navbar-li:hover:before,
+  .navbar-li:hover:after,
+  .navbar-li:hover .navbar-services:before {
     display: none;
   }
 
