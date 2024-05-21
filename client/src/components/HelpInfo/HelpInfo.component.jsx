@@ -12,7 +12,8 @@ const HelpInfo = () => {
           <li className="help-li help-address">
             <FontAwesomeIcon icon={faMapMarkerAlt} className="help-icon" />
             <h1 style={{ fontSize: '24px' }}>Address</h1>
-            <p style={{ fontSize: '16px' }}>835 Wilshire Blvd Ste 500 </p>
+            <p style={{ fontSize: '16px' }}>835 Wilshire Boulevard</p>
+            <p style={{ marginTop: '-20px', fontSize: '16px' }}>Suite 500 </p>
             <p style={{ marginTop: '-20px', fontSize: '16px' }}>Los Angeles, CA 90017</p>
           </li>
         </Flip>
