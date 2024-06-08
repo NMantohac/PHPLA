@@ -12,7 +12,7 @@ const HelpInfo = () => {
           <li className="help-li help-address">
             <FontAwesomeIcon icon={faMapMarkerAlt} className="help-icon" />
             <h1 style={{ fontSize: '24px' }}>Address</h1>
-            <p style={{ fontSize: '16px' }}>835 Wilshire BLVD STE 500</p>
+            <p style={{ fontSize: '16px' }}>835 Wilshire Blvd Ste 500</p>
             <p style={{ marginTop: '-20px', fontSize: '16px' }}>Los Angeles, CA 90017</p>
           </li>
         </Flip>
@@ -34,7 +34,7 @@ const HelpInfo = () => {
           <li className="help-li help-fax">
             <FontAwesomeIcon icon={faFax} className="help-icon" />
             <h1 style={{ fontSize: '24px' }}>Fax</h1>
-            <p style={{ fontSize: '16px' }}>(818) 812-6590</p>
+            <p style={{ fontSize: '16px' }}>(818) 357-2228</p>
           </li>
         </Flip>
       </ul>
