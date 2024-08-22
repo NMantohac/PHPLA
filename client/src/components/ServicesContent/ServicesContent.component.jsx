@@ -15,7 +15,7 @@ const ServicesContent = () => {
               <h3>Please submit the following:</h3>
               <ul>
                 <li>Picture Identification</li>
-                <li>Summons, Unlawful Detainer - Eviction</li>
+                <li>Judgment - Unlawful Detainer (UD-110)</li>
                 <li>Proof of New Address</li>
                 <li>Must live in and transfer within the <b>Los Angeles City</b> area only</li>
               </ul>
