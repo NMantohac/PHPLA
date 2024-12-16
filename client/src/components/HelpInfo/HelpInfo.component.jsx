@@ -20,7 +20,7 @@ const HelpInfo = () => {
           <li className="help-li help-email">
             <FontAwesomeIcon icon={faEnvelope} className="help-icon" />
             <h1 style={{ fontSize: '24px' }}>Email</h1>
-            <p style={{ fontSize: '16px' }}>info@phplosangeles.org</p>
+            <p style={{ fontSize: '16px' }}>info@phpla.org</p>
           </li>
         </Flip>
         <Flip top>

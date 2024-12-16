@@ -34,8 +34,8 @@ const Footer = () => {
               </li>
               <li>
                 <FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '10px' }} />
-                <a href="mailto:info@phplosangeles.org" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
-                  info@phplosangeles.org
+                <a href="mailto:info@phpla.org" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
+                  info@phpla.org
                 </a>
               </li>
               <li>
