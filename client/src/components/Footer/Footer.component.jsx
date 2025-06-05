@@ -28,8 +28,8 @@ const Footer = () => {
             <ul className="list-unstyled" style={{ fontSize: '15px' }}>
               <li>
                 <FontAwesomeIcon icon={faMapMarkerAlt} style={{ marginRight: '10px' }} />
-                <a href="https://www.google.com/maps/place/7900+S+Western+Ave,+Los+Angeles,+CA+90047/@33.9665306,-118.3093464,283m/data=!3m1!1e3!4m21!1m14!4m13!1m5!1m1!1s0x80c2b62da97440a7:0x9d47221079c5de7a!2m2!1d-118.3086389!2d33.9669572!1m6!1m2!1s0x80c2b62da97440a7:0x9d47221079c5de7a!2s7900+S+Western+Ave,+Los+Angeles,+CA+90047!2m2!1d-118.3086389!2d33.9669572!3m5!1s0x80c2b62da97440a7:0x9d47221079c5de7a!8m2!3d33.9669572!4d-118.3086389!16s%2Fg%2F11bytnwmsm?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
-                  7900 S. Western Avenue Ste 6, Los Angeles, CA 90047
+                <a href="https://www.google.com/maps/place/835+Wilshire+Blvd,+Los+Angeles,+CA+90017/@34.0500578,-118.2654015,2673m/data=!3m1!1e3!4m22!1m15!4m14!1m6!1m2!1s0x80c2c7b15e6b42ef:0xf32d2a0544270869!2s835+Wilshire+Boulevard,+Los+Angeles,+CA!2m2!1d-118.2588065!2d34.0499896!1m6!1m2!1s0x80c2c7b15e6b42ef:0xf32d2a0544270869!2s835+Wilshire+Blvd,+Los+Angeles,+CA+90017!2m2!1d-118.2588065!2d34.0499896!3m5!1s0x80c2c7b15e6b42ef:0xf32d2a0544270869!8m2!3d34.0499896!4d-118.2588065!16s%2Fg%2F11bw3_vx37?entry=ttu&g_ep=EgoyMDI1MDYwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
+                  835 Wilshire Blvd Ste 500, Los Angeles, CA 90017
                 </a>
               </li>
               <li>
