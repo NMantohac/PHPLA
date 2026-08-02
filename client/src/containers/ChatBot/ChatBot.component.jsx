@@ -123,7 +123,7 @@ class ChatBotFeature extends Component {
             },
             {
               id: '6',
-              message: 'Call (833) 467-4752 or email info@phplosangeles.org if you have any questions or want to know more information about us.',
+              message: 'Call (833) 467-4752 or email info@phpla.org if you have any questions or want to know more information about us.',
               trigger: '7',
             },
             {
