@@ -41,10 +41,9 @@ const ServicesContent = () => {
               <ul>
                 <li>Picture Identification</li>
                 <li>Judgment - Unlawful Detainer (UD-110)</li>
-                <li>Proof of New Address</li>
+                <li>Proof of Old & New Address</li>
                 <li>Must live in and transfer within the <b>Los Angeles City</b> area only</li>
               </ul>
-              <p><b>Note:</b> We are not responsible for any property damages.</p>
           </Col>
         </Row>  
         <Row style={{ marginTop: '20px', marginBottom: '20px' }}>
